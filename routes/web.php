@@ -18,6 +18,7 @@ Route::get('/testget', function () {
         'data' => $data,
     ]);
 });
+
 Route::post('/testpost', function () {
     return response()->json(['status' => true, 'message' => 'Data has been created']);
 });

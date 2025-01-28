@@ -19,6 +19,6 @@ Route::get('/testget', function () {
     ]);
 });
 
-Route::post('/testpost', function () {
+Route::post('/api/v1/testpost', function () {
     return response()->json(['status' => true, 'message' => 'Data has been created']);
 });
